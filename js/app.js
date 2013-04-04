@@ -10,6 +10,7 @@ angular.module('site', ['$strap.directives']).
       when('/services/clang',                  {templateUrl: 'partials/en/clang.html',   controller: SiteCtrl}).
       when('/services/google-apps',            {templateUrl: 'partials/en/google-apps.html',   controller: SiteCtrl}).
       when('/services/javascript-development', {templateUrl: 'partials/en/javascript-development.html',   controller: SiteCtrl}).
+      when('/services/sencha',                 {templateUrl: 'partials/en/javascript-development.html',   controller: SiteCtrl}).
       when('/services/domain-and-hosting',     {templateUrl: 'partials/en/domain-and-hosting.html',   controller: SiteCtrl}).
       when('/about/devotis',                   {templateUrl: 'partials/en/about-devotis.html',   controller: SiteCtrl}).
       when('/about/christiaan-westerbeek',     {templateUrl: 'partials/en/about-chris.html',   controller: SiteCtrl}).
