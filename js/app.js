@@ -7,6 +7,7 @@ angular.module('site', ['$strap.directives']).
   $routeProvider.
       when('/',                            {templateUrl: 'partials/en/home.html',    controller: SiteCtrl}).
       when('/blog',                        {templateUrl: 'partials/en/blog.html',   controller: SiteCtrl}).
+      when('/services/stoic',              {templateUrl: 'partials/en/stoic.html',   controller: SiteCtrl}).
       when('/services/clang',              {templateUrl: 'partials/en/clang.html',   controller: SiteCtrl}).
       when('/services/google-apps',        {templateUrl: 'partials/en/google-apps.html',   controller: SiteCtrl}).
       when('/services/domain-and-hosting', {templateUrl: 'partials/en/domain-and-hosting.html',   controller: SiteCtrl}).
