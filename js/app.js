@@ -14,7 +14,8 @@ angular.module('site', ['$strap.directives']).
       when('/services/domain-and-hosting',     {templateUrl: 'partials/en/domain-and-hosting.html',   controller: SiteCtrl}).
       when('/about/devotis',                   {templateUrl: 'partials/en/about-devotis.html',   controller: SiteCtrl}).
       when('/about/christiaan-westerbeek',     {templateUrl: 'partials/en/about-chris.html',   controller: SiteCtrl}).
-      when('/blog',                            {templateUrl: 'partials/en/blog.html',   controller: SiteCtrl}).
+      when('/news',                            {templateUrl: 'partials/en/news.html',   controller: SiteCtrl}).
+      when('/news-old',                        {templateUrl: 'partials/en/news-old.html',   controller: SiteCtrl}).
       when('/customers',                       {templateUrl: 'partials/en/customers.html', controller: SiteCtrl}).
       when('/contact',                         {templateUrl: 'partials/en/about-devotis.html',   controller: SiteCtrl}).
       otherwise({redirectTo: '/'});
