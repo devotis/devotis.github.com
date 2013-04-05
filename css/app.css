@@ -133,9 +133,3 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
     padding: 0 10px;
     color: rgba(255,255,255,.25);
 }
-
-/* Keep space for the general header all other pages. This is fixed in homepage by .masthead
-------------------------- */
-div[ng-view] {
-    padding-top: 40px;
-}
