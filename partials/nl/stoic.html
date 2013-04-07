@@ -1,0 +1,74 @@
+<!-- Begin page content -->
+<div class="container headsup">
+    <div class="row">
+        <div class="span12">
+            <h3>STOIC</h3>
+            <hr/>
+
+            <p>STOIC is a single-<a href="http://stoic.com/stack/#/questions/1289">tenant</a> platform as a service (<a href="http://stoic.com/stack/#/questions/131">PaaS</a>) where you can deploy applications (or apps).
+            The STOIC platform allows you to configure Apps instead of having to program them.
+            This is done by either importing a Spreadsheet or creating <a href="http://stoic.com/stack/#/questions/726">objects</a> manually.
+            Both are done using the rich UI that is shipped with the platform.</p>
+            
+            <p>Single-tenancy means that you have a virtual machine (or <a href="http://stoic.com/stack/#/questions/947">instance</a>)
+            running with a complete copy of the entire architecture of STOIC just for you (and your colleges).
+            All instance components are preconfigured, maintained, monitored and upgraded by STOIC</p>
+
+            <img src="http://25.media.tumblr.com/accef893b7b65ee90d685d6b01419d87/tumblr_mkdmxk1QQ71rsjz40o1_1280.png">
+            <i>This is the rich UI of STOIC</i>
+   
+            <h3>Architecture</h3>
+            <p>The STOIC Platform implements a radical architecture designed to take full advantage of the latest cloud technologies.
+            Most of its components are built using the JavaScript programming language, including the back-end server, which is powered by Node.js.
+            The user interface is implemented using AngularJS, Bootstrap, and a few other libraries (Cf. JavaScript stack).</p>
+
+            <p>The STOIC Platform implements 4 pre-configured and maintained databases:</p>
+            <ul>
+                <li>A SQL database (PostgreSQL) to store all busi​​ness data and meta-data</li>​
+                <li>A NoSQL datastore (MongoDB) to store all change logs and a few other things</li>​
+                <li>A key-value store (Redis) to store user sessions and a few other things</li>​
+                <li>An indexing store (ElasticSearch) to make all other data searchable.</li>​
+            </ul>
+            
+            <p>And remember, these databases are yours. They are not shared with other STOIC users.
+            They have their instance of the platform and you have yours.</p>
+            
+            <img src="http://stoic.com/img/site/diagrams/Architecture.png" style="">
+            <i>This is the architecture of STOIC</i>
+
+            <h3>Meta-data</h3>
+
+            <p>STOIC is meta-data driven and it allows for custom applications to be build using databases with custom datamodels.
+            There is meta-data
+            for <a href="http://stoic.com/stack/#/questions/394">applications</a>
+            that are made of <a href="http://stoic.com/stack/#/questions/726">objects</a>
+            defined by <a href="http://stoic.com/stack/#/questions/724">fields</a>
+            with extensible <a href="http://stoic.com/stack/#/questions/722">datatypes</a>
+            and offer <a href="http://stoic.com/stack/#/questions/1332">user interfaces</a>
+            with <a href="http://stoic.com/stack/#/questions/328">multiple perspectives</a>
+            , <a href="http://stoic.com/stack/#/questions/842">APIs</a>
+            supporting rich <a href="http://stoic.com/stack/#/questions/803">actions</a>
+            , <a href="http://stoic.com/stack/#/questions/449">connectors</a> for integration
+            , and <a href="http://stoic.com/stack/#/questions/767">widgets</a> for content syndication.<p>
+
+            <h3>Widgets</h3>
+            <p><a href="http://stoic.com/stack/#/questions/767">Widgets</a> are simple HTML5 components allowing web developers to create custom user interfaces using the STOIC platform on the back-end,
+            and virtually any web technology on the front-end. Widgets are similar to Facebook Social Plugins or Twitter Widgets,
+            and designed to be as easy to use.</p>
+            
+            <p>Typically, a widget can be added to any HTML page with a single line of HTML code.
+            A great example showcasing widgets is STOIC Answers, which is a clone of Stackoverflow build with STOIC.</p>
+            <img src="/img/widgets-on-answers.png">
+            <i>3 Widgets on <a href="http://stoic.com/stack">STOIC Answers</a> in action.</i>
+            
+            
+            <h3>APIs</h3>
+            When you import a Spreadsheet, the importer creates an <a href="http://stoic.com/stack/#/questions/726">object</a> (table) for every sheet (including relations based on field and sheet names).
+            A full restful CRUD API will be <a href="http://stoic.com/stack/#/questions/1411">available</a> for every <a href="http://stoic.com/stack/#/questions/726">object</a> you just created. <a href="http://stoic.com/stack/#/questions/1411">More on APIs...</a>
+
+
+        </div>
+    </div>
+</div>
+
+
