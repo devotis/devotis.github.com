@@ -1,0 +1,3 @@
+- implements 301 redirects for current paths (use sitemap.txt)
+- translate home, stoic and some more pages
+- go live (DNS)
