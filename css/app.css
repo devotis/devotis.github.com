@@ -133,3 +133,30 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
     padding: 0 10px;
     color: rgba(255,255,255,.25);
 }
+
+#footer .social li a {
+    background: url("../img/social-icons.png") no-repeat scroll 0 0 transparent;
+}
+
+#footer .social li a.facebook {
+    background-position: 0 -850px;
+}
+#footer .social li a.linkedin {
+    background-position: 0 -804px;
+}
+#footer .social li a.tumblr {
+    background-position: 0 -827px;
+}
+#footer .social li a.twitter {
+    background-position: 0 -628px;
+}
+#footer .social li a.vimeo {
+    background-position: 0 -781px;
+}
+#footer .social li a.gplus {
+    background-position: 0 -602px;
+}
+#footer .social a {
+    color: #333333;
+    padding-left: 18px;
+}
