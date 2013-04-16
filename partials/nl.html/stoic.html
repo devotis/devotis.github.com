@@ -4,70 +4,73 @@
         <div class="span12">
             <h3>STOIC</h3>
             <hr/>
-
-            <p>STOIC is a single-<a href="http://stoic.com/stack/#/questions/1289">tenant</a> platform as a service (<a href="http://stoic.com/stack/#/questions/131">PaaS</a>) where you can deploy applications (or apps).
-            The STOIC platform allows you to configure Apps instead of having to program them.
-            This is done by either importing a Spreadsheet or creating <a href="http://stoic.com/stack/#/questions/726">objects</a> manually.
-            Both are done using the rich UI that is shipped with the platform.</p>
+            <p>STOIC is een single-<a href="http://stoic.com/stack/#/questions/1289">tenant</a> platform as a service (<a href="http://stoic.com/stack/#/questions/131">PaaS</a>)
+            waarmee u applicaties (apps) kunt implementeren en draaien.
+            Met het STOIC platform ben je in staat apps te configureren in plaats van ze te moeten programmeren.
+            Je begint met het importeren van een spreadsheet of het handmatig aanmaken van <a href="http://stoic.com/stack/#/questions/726">objecten</a>.
+            Beide doe je middels de gebruikersinterface horende bij de applicatie.</p>
             
-            <p>Single-tenancy means that you have a virtual machine (or <a href="http://stoic.com/stack/#/questions/947">instance</a>)
-            running with a complete copy of the entire architecture of STOIC just for you (and your colleges).
-            All instance components are preconfigured, maintained, monitored and upgraded by STOIC</p>
+            <p>Single-tenancy betekent dat je een volledige virtuele machine (of <a href="http://stoic.com/stack/#/questions/947">instance</a>)
+            met de volledige architectuur van STOIC tot je beschikking hebt voor jou (en je bedrijf) alleen.
+            Alle instances en hun componenten worden vooraf geconfigureerd, onderhouden, bewaakt en geüpgrade door STOIC</p>
 
             <img src="http://25.media.tumblr.com/accef893b7b65ee90d685d6b01419d87/tumblr_mkdmxk1QQ71rsjz40o1_1280.png">
-            <i>This is the rich UI of STOIC</i>
+            <i>Dit is de gebruikersinterface horende bij STOIC</i>
    
-            <h3>Architecture</h3>
-            <p>The STOIC Platform implements a radical architecture designed to take full advantage of the latest cloud technologies.
-            Most of its components are built using the JavaScript programming language, including the back-end server, which is powered by Node.js.
-            The user interface is implemented using AngularJS, Bootstrap, and a few other libraries (Cf. JavaScript stack).</p>
+            <h3>Architectuur</h3>
+            <p>Het STOIC platform implementeert een radicale architectuur ontworpen om optimaal te profiteren van de nieuwste cloud-technologieën.
+            De meeste componenten zijn gebouwd met behulp van de JavaScript-programmeertaal, met inbegrip van de back-end server,
+            die wordt aangedreven door Node.js.
+            De gebruikersinterface is geïmplementeerd met behulp van AngularJS, Bootstrap, en een aantal andere bibliotheken (vgl. JavaScript stack).</p>
 
-            <p>The STOIC Platform implements 4 pre-configured and maintained databases:</p>
+            <p>Het STOIC platform implementeert 4 vooraf geconfigureerd en onderhouden databases:</p>
             <ul>
-                <li>A SQL database (PostgreSQL) to store all busi​​ness data and meta-data</li>​
-                <li>A NoSQL datastore (MongoDB) to store all change logs and a few other things</li>​
-                <li>A key-value store (Redis) to store user sessions and a few other things</li>​
-                <li>An indexing store (ElasticSearch) to make all other data searchable.</li>​
+                <li>Een SQL database (PostgreSQL) om alle bedrijfsgegevens en meta-data op te slaan</li>​
+                <li>Een NoSQL datastore (MongoDB) om alle change logs op te slaan</li>​
+                <li>Een key-value store (Redis) om alle gebruikersessies op te slaan</li>​
+                <li>Een indexing store (ElasticSearch) om alle andere data eenvoudig vindbaar te maken.</li>​
             </ul>
             
-            <p>And remember, these databases are yours. They are not shared with other STOIC users.
-            They have their instance of the platform and you have yours.</p>
+            <p>Zoals gezegd, deze databases zijn van jou. Ze worden niet gedeeld met STOIC users van andere instances.
+            Zij hebben hun instance van het platform en jij de jouwe.</p>
             
             <img src="http://stoic.com/img/site/diagrams/Architecture.png" style="">
-            <i>This is the architecture of STOIC</i>
+            <i>Dit is een weergave van de architectuur van STOIC</i>
 
             <h3>Meta-data</h3>
 
-            <p>STOIC is meta-data driven and it allows for custom applications to be build using databases with custom datamodels.
-            There is meta-data
-            for <a href="http://stoic.com/stack/#/questions/394">applications</a>
-            that are made of <a href="http://stoic.com/stack/#/questions/726">objects</a>
-            defined by <a href="http://stoic.com/stack/#/questions/724">fields</a>
-            with extensible <a href="http://stoic.com/stack/#/questions/722">datatypes</a>
-            and offer <a href="http://stoic.com/stack/#/questions/1332">user interfaces</a>
-            with <a href="http://stoic.com/stack/#/questions/328">multiple perspectives</a>
+            <p>STOIC is meta-data gedreven waardoor je custom applicaties kan maken op basis van custom datamodellen.
+            Er is meta-data
+            voor <a href="http://stoic.com/stack/#/questions/394">applicaties</a>
+            die bestaan uit <a href="http://stoic.com/stack/#/questions/726">objecten</a>
+            gedefinieerd door hun <a href="http://stoic.com/stack/#/questions/724">velden</a>
+            met uitbreidbare <a href="http://stoic.com/stack/#/questions/722">datatypes</a>
+            en bieden <a href="http://stoic.com/stack/#/questions/1332">gebruikersinterfaces</a>
+            met een veelvoud aan<a href="http://stoic.com/stack/#/questions/328">perspectieven</a>
             , <a href="http://stoic.com/stack/#/questions/842">APIs</a>
-            supporting rich <a href="http://stoic.com/stack/#/questions/803">actions</a>
-            , <a href="http://stoic.com/stack/#/questions/449">connectors</a> for integration
-            , and <a href="http://stoic.com/stack/#/questions/767">widgets</a> for content syndication.<p>
+            , <a href="http://stoic.com/stack/#/questions/803">acties</a>
+            , <a href="http://stoic.com/stack/#/questions/449">connectoren</a> voor integratie
+            en <a href="http://stoic.com/stack/#/questions/767">widgets</a> voor websites.<p>
 
             <h3>Widgets</h3>
-            <p><a href="http://stoic.com/stack/#/questions/767">Widgets</a> are simple HTML5 components allowing web developers to create custom user interfaces using the STOIC platform on the back-end,
-            and virtually any web technology on the front-end. Widgets are similar to Facebook Social Plugins or Twitter Widgets,
-            and designed to be as easy to use.</p>
+            <p><a href="http://stoic.com/stack/#/questions/767">Widgets</a> zijn eenvoudige stukjes HTML waarmee webdevelopers
+            eigen gebruikersinterfaces kunnen maken. Het STOIC platform als back-end en vrijwel elke webtechnologie als front-end.
+            Widgets zijn vergelijkbaar met Facebook Social Plugins of Twitter Widgets,
+            en zijn ontworpen om eenvoudig te gebruik.</p>
             
-            <p>Typically, a widget can be added to any HTML page with a single line of HTML code.
-            A great example showcasing widgets is STOIC Answers, which is a clone of Stackoverflow build with STOIC.</p>
+            <p>Bijna elke widget kan gebruikt worden als een enkele regel HTML code in elke HTML pagina.
+            Een perfect voorbeeld die de kracht van widgets laat zien is STOIC Answers,
+            wat een kloon is van Stackoverflow gebouwd met STOIC als backend en STOIC widgets.</p>
             <img src="/img/widgets-on-answers.png">
-            <i>3 Widgets on <a href="http://stoic.com/stack">STOIC Answers</a> in action.</i>
-            
+            <i>3 Widgets op <a href="http://stoic.com/stack">STOIC Answers</a> in actie.</i>
             
             <h3>APIs</h3>
-            When you import a Spreadsheet, the importer creates an <a href="http://stoic.com/stack/#/questions/726">object</a> (table) for every sheet (including relations based on field and sheet names).
-            A full restful CRUD API will be <a href="http://stoic.com/stack/#/questions/1411">available</a> for every <a href="http://stoic.com/stack/#/questions/726">object</a> you just created. <a href="http://stoic.com/stack/#/questions/1411">More on APIs...</a>
-
-
-        </div>
+            Als je een spreadsheet importeert, wordt er een <a href="http://stoic.com/stack/#/questions/726">object</a> (tabel) aangemaakt voor elke sheet
+            (inclusief relaties door het combineren van kolomnamen en sheetnamen).
+            Een restful CRUD API is <a href="http://stoic.com/stack/#/questions/1411">beschikbaar</a> voor elk
+            <a href="http://stoic.com/stack/#/questions/726">object</a> zojuist aangemaakt.
+            <a href="http://stoic.com/stack/#/questions/1411">Meer over APIs...</a>
+       </div>
     </div>
 </div>
 
