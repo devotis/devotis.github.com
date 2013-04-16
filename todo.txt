@@ -1,3 +1,4 @@
+- SEO fix ivm Angular routing
 - implements 301 redirects for current paths (use sitemap.txt)
-- translate home, stoic and some more pages
+- translate to english: domain-and-hosting, google-apps en javascript-development
 - go live (DNS)
