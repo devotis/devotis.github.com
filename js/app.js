@@ -22,5 +22,6 @@ angular.module('site', ['$strap.directives']).
       when('/news-old',                        {templateUrl: p+'/news-old.html',   controller: SiteCtrl}).
       when('/customers',                       {templateUrl: p+'/customers.html', controller: SiteCtrl}).
       when('/contact',                         {templateUrl: p+'/about-devotis.html',   controller: SiteCtrl}).
-      otherwise({redirectTo: p});
+      when('/terms-and-conditions',            {templateUrl: p+'/terms-and-conditions.html',   controller: SiteCtrl}).
+      otherwise({redirectTo: '/'});
 }]);
