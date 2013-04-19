@@ -1,10 +1,12 @@
-- SEO fix ivm Angular routing
-- implements 301 redirects for current paths (use sitemap.txt)
+Todo
 - translate to english: domain-and-hosting, google-apps en javascript-development
+
+Suspended
+- SEO fix ivm Angular routing (ik hoop op slimheid Google bots. Goo.gl screenshots wachten ook)
+
+Done:
+- implements 301 redirects for current paths (use sitemap.txt)
 - go live (DNS)
-
-
-Made place holders for meta redirects:
 devotis.nl/Herman-vriendschapskoek
 devotis.nl/about
 devotis.nl/algemene-voorwaarden
