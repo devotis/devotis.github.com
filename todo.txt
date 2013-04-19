@@ -2,3 +2,29 @@
 - implements 301 redirects for current paths (use sitemap.txt)
 - translate to english: domain-and-hosting, google-apps en javascript-development
 - go live (DNS)
+
+
+Made place holders for meta redirects:
+devotis.nl/Herman-vriendschapskoek
+devotis.nl/about
+devotis.nl/algemene-voorwaarden
+devotis.nl/contact
+devotis.nl/home
+devotis.nl/klanten
+devotis.nl/wordle
+
+devotis.nl/diensten
+devotis.nl/diensten/clang
+devotis.nl/diensten/domeinregistratie-en-hosting
+devotis.nl/diensten/google-apps
+devotis.nl/diensten/javascript-development
+devotis.nl/diensten/webservice-development
+
+devotis.nl/nieuws
+devotis.nl/nieuws/4googleappsklantenin4maanden
+devotis.nl/nieuws/alstublieftuwwachtwoord
+devotis.nl/nieuws/benonbereikbaar
+devotis.nl/nieuws/devotissteuntkwfkankerbestrijding
+devotis.nl/nieuws/extstatewindownameprovider
+devotis.nl/nieuws/googleenterprisepartnersearch
+devotis.nl/nieuws/welkomhomephotoart
