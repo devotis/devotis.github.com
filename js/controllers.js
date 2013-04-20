@@ -3,10 +3,9 @@
 /* Controllers */
 
 function SiteCtrl($scope, $http) {
-  /*$http.get('phones/phones.json').success(function(data) {
-    $scope.phones = data;
-  });*/
-
-  $scope.orderProp = 'age';
+  console.log(arguments);
+  $scope.$on('$viewContentLoaded', function(event) {
+    $window._gaq.push(['_trackPageview', $location.path()]);
+  });
 }
 
