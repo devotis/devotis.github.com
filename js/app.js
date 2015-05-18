@@ -25,8 +25,8 @@ angular.module('site', ['$strap.directives']).
       when('/services/stoic',                  {templateUrl: p+'/stoic.html',   controller: SiteCtrl}).
       when('/services/clang',                  {templateUrl: p+'/clang.html',   controller: SiteCtrl}).
       when('/services/google-apps',            {templateUrl: p+'/google-apps.html',   controller: SiteCtrl}).
-      when('/services/javascript-development', {templateUrl: p+'/javascript-development.html',   controller: SiteCtrl}).
-      when('/services/sencha',                 {templateUrl: p+'/javascript-development.html',   controller: SiteCtrl}).
+      when('/services/javascript-development', {templateUrl: p+'/full-stack-development.html',   controller: SiteCtrl}).
+      when('/services/sencha',                 {templateUrl: p+'/full-stack-development.html',   controller: SiteCtrl}).
       when('/services/domain-and-hosting',     {templateUrl: p+'/domain-and-hosting.html',   controller: SiteCtrl}).
       when('/news-old',                        {templateUrl: p+'/news-old.html',   controller: SiteCtrl}).
       when('/herman-vriendschapskoek',         {templateUrl: p+'/herman-vriendschapskoek.html',   controller: SiteCtrl}).
